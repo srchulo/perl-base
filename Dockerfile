@@ -1,7 +1,7 @@
 FROM perl:5.30
 
 RUN mkdir -p /perlconfig
-COPY .spellunker.en /perlconfig
+COPY .spellunker.en $HOME/
 COPY .perlcriticrc /perlconfig
 COPY .perltidyrc /perlconfig
 COPY .tidyallrc /perlconfig
