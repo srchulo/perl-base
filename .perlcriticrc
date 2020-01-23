@@ -1,1 +1,7 @@
 [-Subroutines::ProhibitSubroutinePrototypes]
+
+[TestingAndDebugging::RequireUseStrict]
+equivalent_modules = Modern::Perl Mus Mu::Role Moo Moo::Role
+
+[TestingAndDebugging::RequireUseWarnings]
+equivalent_modules = Modern::Perl Mus Mu::Role Moo Moo::Role
