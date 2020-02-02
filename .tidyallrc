@@ -1,4 +1,4 @@
-[PerlTidy]
+[PerlTidySweet]
 select = {lib,script,t}/**/*.{pl,pm,t,lib}
 
 [PerlCritic]
