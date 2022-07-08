@@ -1,4 +1,4 @@
-FROM perl:5.32
+FROM perl:5.36
 
 RUN mkdir -p /perlconfig
 COPY .spellunker.en /root/
